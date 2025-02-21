@@ -13,13 +13,15 @@ axios(`https://api.github.com/users/${userId}`)
     <div class = "card">
     <img src = '${data.avatar_url}' width = '240px'>
     <br>
-    Name: ${data.name};
+    Name: ${data.name}
     <br>
-    Bio: ${data.bio};
+    Bio: ${data.bio}
     <br>
-    Id: ${data.id};
+    Id: ${data.id}
     <br>
-    Email:${data.email};
+    Location: ${data.location}
+    <br>
+    Email:${data.email}
     <br>
     </div>
     `;
