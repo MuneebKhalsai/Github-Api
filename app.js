@@ -31,14 +31,3 @@ axios(`https://api.github.com/users/${userId}`)
     alert('Github Username Is Invalid');
 });
 });
-
-
-
-
- // Extra spaces remove karega
-
-    // if (!userId) {
-    //     alert('Please enter a valid GitHub username');
-    //     return;
-    // }
-
